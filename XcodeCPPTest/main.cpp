@@ -12,8 +12,9 @@
 #include "BinaryTree.h"
 #include "lamda.h"
 #include "FindMissingNumber.h"
-
 #include "QuickSort.h"
+
+#include "ClassSizeAndVirtualFunction.h"
 using namespace std;
 
 bool IsBiarySearchTree(vector<int> array)
@@ -82,6 +83,13 @@ void MergeArray(vector<int>& A,vector<int>& B,vector<int>&result)
 int main(int argc, const char * argv[]) {
     
  
+    class A a;
+    int sizeA=sizeof(A);
+    class B b;
+    int sizeB=sizeof(b);
+    
+    int ai;
+    int sizeInt=sizeof(ai);
    
     return 0;
 }

@@ -29,6 +29,9 @@
 		602082AC208C5F6E00CE7F74 /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTree.h; path = XcodeCPPTest/DataAndStruction/BinaryTree.h; sourceTree = SOURCE_ROOT; };
 		602082AD208C5F6E00CE7F74 /* lamda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lamda.h; path = XcodeCPPTest/DataAndStruction/lamda.h; sourceTree = SOURCE_ROOT; };
 		602082AE208C5F6E00CE7F74 /* BinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryTree.cpp; path = XcodeCPPTest/DataAndStruction/BinaryTree.cpp; sourceTree = SOURCE_ROOT; };
+		602082B1208C60F600CE7F74 /* ClassSizeAndVirtualFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassSizeAndVirtualFunction.h; sourceTree = "<group>"; };
+		602082B3208C61D000CE7F74 /* ClassSizeAndVirtualFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassSizeAndVirtualFunction.h; sourceTree = "<group>"; };
+		602082B5208C61E000CE7F74 /* ClassSizeAndVirtualFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassSizeAndVirtualFunction.h; sourceTree = "<group>"; };
 		604160622067732C002FD8C0 /* XcodeCPPTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XcodeCPPTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		604160652067732C002FD8C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +50,7 @@
 		602082A9208C5EE400CE7F74 /* DataAndStruction */ = {
 			isa = PBXGroup;
 			children = (
+				602082B4208C61E000CE7F74 /* CPPObjectModel */,
 				602082AE208C5F6E00CE7F74 /* BinaryTree.cpp */,
 				602082AC208C5F6E00CE7F74 /* BinaryTree.h */,
 				602082AB208C5F6E00CE7F74 /* FindMissingNumber.h */,
@@ -56,6 +60,32 @@
 			name = DataAndStruction;
 			path = "New Group";
 			sourceTree = "<group>";
+		};
+		602082B0208C60B500CE7F74 /* CPPObjectModel */ = {
+			isa = PBXGroup;
+			children = (
+				602082B2208C61D000CE7F74 /* CPPObjectModel */,
+				602082B1208C60F600CE7F74 /* ClassSizeAndVirtualFunction.h */,
+			);
+			path = CPPObjectModel;
+			sourceTree = "<group>";
+		};
+		602082B2208C61D000CE7F74 /* CPPObjectModel */ = {
+			isa = PBXGroup;
+			children = (
+				602082B3208C61D000CE7F74 /* ClassSizeAndVirtualFunction.h */,
+			);
+			name = CPPObjectModel;
+			sourceTree = "<group>";
+		};
+		602082B4208C61E000CE7F74 /* CPPObjectModel */ = {
+			isa = PBXGroup;
+			children = (
+				602082B5208C61E000CE7F74 /* ClassSizeAndVirtualFunction.h */,
+			);
+			name = CPPObjectModel;
+			path = XcodeCPPTest/CPPObjectModel;
+			sourceTree = SOURCE_ROOT;
 		};
 		604160592067732C002FD8C0 = {
 			isa = PBXGroup;
@@ -76,6 +106,7 @@
 		604160642067732C002FD8C0 /* XcodeCPPTest */ = {
 			isa = PBXGroup;
 			children = (
+				602082B0208C60B500CE7F74 /* CPPObjectModel */,
 				602082A9208C5EE400CE7F74 /* DataAndStruction */,
 				604160652067732C002FD8C0 /* main.cpp */,
 			);
