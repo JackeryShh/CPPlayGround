@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		602082AF208C5F6E00CE7F74 /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 602082AE208C5F6E00CE7F74 /* BinaryTree.cpp */; };
 		604160662067732C002FD8C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 604160652067732C002FD8C0 /* main.cpp */; };
+		605BC11320E66773004E66DE /* Cast_Type.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 605BC11120E66773004E66DE /* Cast_Type.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,9 +32,12 @@
 		602082AE208C5F6E00CE7F74 /* BinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryTree.cpp; path = XcodeCPPTest/DataAndStruction/BinaryTree.cpp; sourceTree = SOURCE_ROOT; };
 		602082B1208C60F600CE7F74 /* ClassSizeAndVirtualFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassSizeAndVirtualFunction.h; sourceTree = "<group>"; };
 		602082B3208C61D000CE7F74 /* ClassSizeAndVirtualFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassSizeAndVirtualFunction.h; sourceTree = "<group>"; };
-		602082B5208C61E000CE7F74 /* ClassSizeAndVirtualFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassSizeAndVirtualFunction.h; sourceTree = "<group>"; };
 		604160622067732C002FD8C0 /* XcodeCPPTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XcodeCPPTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		604160652067732C002FD8C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		605BC11120E66773004E66DE /* Cast_Type.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cast_Type.cpp; sourceTree = "<group>"; };
+		605BC11220E66773004E66DE /* Cast_Type.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Cast_Type.hpp; sourceTree = "<group>"; };
+		605BC11420E667BA004E66DE /* CastTypeTestUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CastTypeTestUnit.h; sourceTree = "<group>"; };
+		605BC11520E66A09004E66DE /* IsBiarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IsBiarySearchTree.h; path = XcodeCPPTest/TypeCast/IsBiarySearchTree.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +54,12 @@
 		602082A9208C5EE400CE7F74 /* DataAndStruction */ = {
 			isa = PBXGroup;
 			children = (
-				602082B4208C61E000CE7F74 /* CPPObjectModel */,
 				602082AE208C5F6E00CE7F74 /* BinaryTree.cpp */,
 				602082AC208C5F6E00CE7F74 /* BinaryTree.h */,
 				602082AB208C5F6E00CE7F74 /* FindMissingNumber.h */,
 				602082AD208C5F6E00CE7F74 /* lamda.h */,
 				602082AA208C5F6E00CE7F74 /* QuickSort.h */,
+				605BC11520E66A09004E66DE /* IsBiarySearchTree.h */,
 			);
 			name = DataAndStruction;
 			path = "New Group";
@@ -78,15 +82,6 @@
 			name = CPPObjectModel;
 			sourceTree = "<group>";
 		};
-		602082B4208C61E000CE7F74 /* CPPObjectModel */ = {
-			isa = PBXGroup;
-			children = (
-				602082B5208C61E000CE7F74 /* ClassSizeAndVirtualFunction.h */,
-			);
-			name = CPPObjectModel;
-			path = XcodeCPPTest/CPPObjectModel;
-			sourceTree = SOURCE_ROOT;
-		};
 		604160592067732C002FD8C0 = {
 			isa = PBXGroup;
 			children = (
@@ -106,11 +101,22 @@
 		604160642067732C002FD8C0 /* XcodeCPPTest */ = {
 			isa = PBXGroup;
 			children = (
+				605BC11020E66733004E66DE /* TypeCast */,
 				602082B0208C60B500CE7F74 /* CPPObjectModel */,
 				602082A9208C5EE400CE7F74 /* DataAndStruction */,
 				604160652067732C002FD8C0 /* main.cpp */,
 			);
 			path = XcodeCPPTest;
+			sourceTree = "<group>";
+		};
+		605BC11020E66733004E66DE /* TypeCast */ = {
+			isa = PBXGroup;
+			children = (
+				605BC11120E66773004E66DE /* Cast_Type.cpp */,
+				605BC11220E66773004E66DE /* Cast_Type.hpp */,
+				605BC11420E667BA004E66DE /* CastTypeTestUnit.h */,
+			);
+			path = TypeCast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				602082AF208C5F6E00CE7F74 /* BinaryTree.cpp in Sources */,
+				605BC11320E66773004E66DE /* Cast_Type.cpp in Sources */,
 				604160662067732C002FD8C0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
