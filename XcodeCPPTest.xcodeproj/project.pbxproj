@@ -10,6 +10,9 @@
 		602082AF208C5F6E00CE7F74 /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 602082AE208C5F6E00CE7F74 /* BinaryTree.cpp */; };
 		604160662067732C002FD8C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 604160652067732C002FD8C0 /* main.cpp */; };
 		605BC11320E66773004E66DE /* Cast_Type.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 605BC11120E66773004E66DE /* Cast_Type.cpp */; };
+		FAE721BE2117E84C002B71E9 /* STLContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE721BC2117E84C002B71E9 /* STLContainer.cpp */; };
+		FAE721C32117EC02002B71E9 /* C++11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE721C12117EC02002B71E9 /* C++11.cpp */; };
+		FAE721C72117EC9B002B71E9 /* C++TemplateProgramming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE721C52117EC9B002B71E9 /* C++TemplateProgramming.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +33,6 @@
 		602082AC208C5F6E00CE7F74 /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTree.h; path = XcodeCPPTest/DataAndStruction/BinaryTree.h; sourceTree = SOURCE_ROOT; };
 		602082AD208C5F6E00CE7F74 /* lamda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lamda.h; path = XcodeCPPTest/DataAndStruction/lamda.h; sourceTree = SOURCE_ROOT; };
 		602082AE208C5F6E00CE7F74 /* BinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryTree.cpp; path = XcodeCPPTest/DataAndStruction/BinaryTree.cpp; sourceTree = SOURCE_ROOT; };
-		602082B1208C60F600CE7F74 /* ClassSizeAndVirtualFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassSizeAndVirtualFunction.h; sourceTree = "<group>"; };
 		602082B3208C61D000CE7F74 /* ClassSizeAndVirtualFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassSizeAndVirtualFunction.h; sourceTree = "<group>"; };
 		604160622067732C002FD8C0 /* XcodeCPPTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XcodeCPPTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		604160652067732C002FD8C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -38,6 +40,12 @@
 		605BC11220E66773004E66DE /* Cast_Type.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Cast_Type.hpp; sourceTree = "<group>"; };
 		605BC11420E667BA004E66DE /* CastTypeTestUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CastTypeTestUnit.h; sourceTree = "<group>"; };
 		605BC11520E66A09004E66DE /* IsBiarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IsBiarySearchTree.h; path = XcodeCPPTest/TypeCast/IsBiarySearchTree.h; sourceTree = SOURCE_ROOT; };
+		FAE721BC2117E84C002B71E9 /* STLContainer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STLContainer.cpp; sourceTree = "<group>"; };
+		FAE721BD2117E84C002B71E9 /* STLContainer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = STLContainer.hpp; sourceTree = "<group>"; };
+		FAE721C12117EC02002B71E9 /* C++11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++11.cpp"; sourceTree = "<group>"; };
+		FAE721C22117EC02002B71E9 /* C++11.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "C++11.hpp"; sourceTree = "<group>"; };
+		FAE721C52117EC9B002B71E9 /* C++TemplateProgramming.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++TemplateProgramming.cpp"; sourceTree = "<group>"; };
+		FAE721C62117EC9B002B71E9 /* C++TemplateProgramming.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "C++TemplateProgramming.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				602082B2208C61D000CE7F74 /* CPPObjectModel */,
-				602082B1208C60F600CE7F74 /* ClassSizeAndVirtualFunction.h */,
 			);
 			path = CPPObjectModel;
 			sourceTree = "<group>";
@@ -101,6 +108,9 @@
 		604160642067732C002FD8C0 /* XcodeCPPTest */ = {
 			isa = PBXGroup;
 			children = (
+				FAE721C42117EC50002B71E9 /* C++Template */,
+				FAE721BF2117EBBB002B71E9 /* C++11 */,
+				FAE721BA2117E7E6002B71E9 /* STL */,
 				605BC11020E66733004E66DE /* TypeCast */,
 				602082B0208C60B500CE7F74 /* CPPObjectModel */,
 				602082A9208C5EE400CE7F74 /* DataAndStruction */,
@@ -117,6 +127,41 @@
 				605BC11420E667BA004E66DE /* CastTypeTestUnit.h */,
 			);
 			path = TypeCast;
+			sourceTree = "<group>";
+		};
+		FAE721BA2117E7E6002B71E9 /* STL */ = {
+			isa = PBXGroup;
+			children = (
+				FAE721BB2117E7FE002B71E9 /* Container */,
+			);
+			path = STL;
+			sourceTree = "<group>";
+		};
+		FAE721BB2117E7FE002B71E9 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				FAE721BC2117E84C002B71E9 /* STLContainer.cpp */,
+				FAE721BD2117E84C002B71E9 /* STLContainer.hpp */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		FAE721BF2117EBBB002B71E9 /* C++11 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE721C12117EC02002B71E9 /* C++11.cpp */,
+				FAE721C22117EC02002B71E9 /* C++11.hpp */,
+			);
+			path = "C++11";
+			sourceTree = "<group>";
+		};
+		FAE721C42117EC50002B71E9 /* C++Template */ = {
+			isa = PBXGroup;
+			children = (
+				FAE721C52117EC9B002B71E9 /* C++TemplateProgramming.cpp */,
+				FAE721C62117EC9B002B71E9 /* C++TemplateProgramming.hpp */,
+			);
+			path = "C++Template";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +224,9 @@
 				602082AF208C5F6E00CE7F74 /* BinaryTree.cpp in Sources */,
 				605BC11320E66773004E66DE /* Cast_Type.cpp in Sources */,
 				604160662067732C002FD8C0 /* main.cpp in Sources */,
+				FAE721C72117EC9B002B71E9 /* C++TemplateProgramming.cpp in Sources */,
+				FAE721BE2117E84C002B71E9 /* STLContainer.cpp in Sources */,
+				FAE721C32117EC02002B71E9 /* C++11.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 64JS8U688E;
+				DEVELOPMENT_TEAM = K3HS32Y7ZF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -301,7 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 64JS8U688E;
+				DEVELOPMENT_TEAM = K3HS32Y7ZF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
